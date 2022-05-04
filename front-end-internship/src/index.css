@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  background: url(logo.png) no-repeat;
+  background-position-x: 5%;
+  background-position-y: -15%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background: none;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  font-family: "Roboto";
+  color: #222222;
+  background: #f7f7f7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px 80px 80px;
+}
+
+.title {
+  font-weight: 500;
+  margin-top: 0;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: left;
+}
+
+.intern {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 24px;
+  width: 400px;
+  height: 64px;
+  background: #f2f2f2;
+}
+
+.intern:hover {
+  border: 2px solid #222222;
+}
+
+li:nth-child(even) {
+  background-color: #ededed;
+}
+
+.interName {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.btnEdit {
+  color: #222222;
+  text-decoration: none;
+  width: 64px;
+  height: 24px;
+  left: 32px;
+  top: 12px;
+  margin: 0px 8px;
+}
+
+.btnEditImage {
+  margin-right: 3px;
+  transform: translateY(20%);
+}
+
+/* EditIntern */
+
+.mainContainer {
+  font-family: "Roboto";
+  min-width: 480px;
+  max-width: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.btnBack {
+  text-decoration: none;
+  color: #222222;
+  line-height: 24px;
+}
+
+.formContainer {
+  background-color: #f7f7f7;
+  padding: 40px 40px;
+  margin-top: 40px;
+}
+
+.arrow {
+  margin-right: 10px;
+  width: 12px;
+  transform: translateY(10%);
+}
+
+.editTitle {
+  height: 47px;
+  font-size: 40px;
+  line-height: 47px;
+}
+
+.label {
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 8px 0px;
+  margin-top: 32px;
+}
+
+.inputText {
+  display: flex;
+  font-family: "Roboto";
+  padding: 12px 16px;
+  font-size: 16px;
+  width: 90%;
+  border-color: #222222;
+  border: solid 1px;
+}
+
+.inputAlert {
+  background: url(Alert.png) no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+  box-shadow: 0px 0px 0px 2px #a3270c;
+}
+
+.dateAlert {
+  background: url(Alert.png) no-repeat;
+  background-position-x: 65%;
+  background-position-y: 50%;
+  box-shadow: 0px 0px 0px 2px #a3270c;
+}
+
+::-webkit-calendar-picker-indicator {
+  background-image: url("date.png");
+  border-left: solid 1px;
+  padding: 12px 16px;
+}
+
+.dates {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 24px;
+  width: 90%;
+  padding-left: 12px;
+  border-color: #222222;
+  border: solid 1px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  height: 100px;
+}
+
+.btnSubmit {
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  padding: 12px 40px;
+  background: #222222;
+  margin-top: 64px;
+  border: none;
+}
+
+.required {
+  margin-top: 5px;
+  color: #a3270c;
+}
